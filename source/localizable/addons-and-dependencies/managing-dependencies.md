@@ -14,17 +14,6 @@ Addons may bring in other dependencies by modifying your project's `bower.json` 
 
 You can find listings of addons on [Ember Observer](http://emberobserver.com).
 
-## Bower
-
-Ember CLI uses the [Bower](http://bower.io) package manager,
-making it easy to keep your front-end dependencies up to date.
-The Bower configuration file, `bower.json`, is located at the root of your Ember CLI project,
-and lists the dependencies for your project.
-Executing `bower install` will install all of the dependencies listed in `bower.json` in one step.
-
-Ember CLI watches `bower.json` for changes.
-Thus it reloads your app if you install new dependencies via `bower install <dependencies> --save`.
-
 ## Other assets
 
 Third-party JavaScript not available as an addon or Bower package should be placed in the `vendor/` folder in your project.
