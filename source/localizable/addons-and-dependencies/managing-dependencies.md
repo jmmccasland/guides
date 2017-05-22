@@ -4,7 +4,6 @@ Ember CLI provides a common format called [Ember Addons](#toc_addons) for distri
 to solve these problems.
 Additionally, you may want to make use of front-end dependencies like a CSS framework
 or a JavaScript datepicker that aren't specific to Ember apps.
-Ember CLI supports installing these packages through the standard [Bower package manager](#toc_bower).
 
 ## Addons
 
