@@ -57,7 +57,7 @@ We want the component to simply provide an input field and yield the results lis
 ```
 
 The template contains an [`{{input}}`](../../templates/input-helpers) helper that renders as a text field, in which the user can type a pattern to filter the list of cities used in a search.
-The `value` property of the `input` will be kept in sync with the `value` property in the component. 
+The `value` property of the `input` will be kept in sync with the `value` property in the component.
 
 Another way to say this is that the `value` property of `input` is [**bound**](../../object-model/bindings/) to the `value` property of the component.
 If the property changes, either by the user typing in the input field, or by assigning a new value to it in our program,
@@ -442,8 +442,6 @@ so we assert that the number of listings is one and that the location it display
 The test verifies that after filling in the search input with "Seattle", the rental list reduces from 3 to 1,
 and the item displayed shows "Seattle" as the location.
 
-You should be down to only 2 failing tests: One remaining acceptance test failure; and our JSHint test that fails on an unused assert for our unimplemented test.
+You should be down to only 2 failing tests: One remaining acceptance test failure; and our ESLint test that fails on an unused assert for our unimplemented test.
 
 ![passing acceptance tests](../../images/autocomplete-component/passing-acceptance-tests.png)
-
-
