@@ -39,10 +39,10 @@ Both LESS and Sass are types of CSS preprocessor markup intended to give you muc
 [Sass/Less Comparison](https://gist.github.com/chriseppstein/674726)
 
 
-## Linter, linting, jslint, jshint
+## Linter, linting, jslint, eslint
 A validation tool which checks for common issues in your JavaScript. You'd usually use this in your build process to enforce quality in your codebase. A great example of something to check for: *making sure you've always got your semicolons*.
 
-[An example of some of the options you can configure](http://jshint.com/docs/options/)
+[An example of some of the options you can configure](http://eslint.org/docs/rules/)
 
 
 ## Polyfill

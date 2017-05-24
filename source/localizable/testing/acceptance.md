@@ -223,11 +223,11 @@ export default Ember.Test.registerAsyncHelper('addContact',
 // addContact('Dan');
 ```
 
-Finally, don't forget to add your helpers in `tests/.jshintrc` and in
-`tests/helpers/start-app.js`. In `tests/.jshintrc` you need to add it in the
-`predef` section, otherwise you will get failing jshint tests:
+Finally, don't forget to add your helpers in `tests/.eslintrc` and in
+`tests/helpers/start-app.js`. In `tests/.eslintrc` you need to add it in the
+`predef` section, otherwise you will get failing eslint tests:
 
-```tests/.jshintc
+```tests/.eslintrc
 {
   "predef": [
     "document",
